@@ -1,27 +1,31 @@
 {
   "expo": {
-    "name": "nomedoaplicativo",
-    "slug": "nomedoaplicativo",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
+    "name": "nomedoaplicativo",              // Nome do app exibido
+    "slug": "nomedoaplicativo",              // Identificador único
+    "version": "1.0.0",                      // Versão do app
+    "orientation": "portrait",               // Orientação padrão
+    "icon": "./assets/icon.png",             // Ícone do aplicativo
+    "userInterfaceStyle": "light",           // Tema claro por padrão
+    "newArchEnabled": true,                  // Habilita arquitetura nova
+
+    "splash": {                              // Tela de splash
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
+
+    "ios": {                                 // Configurações iOS
       "supportsTablet": true
     },
-    "android": {
+
+    "android": {                             // Configurações Android
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "web": {
+
+    "web": {                                 // Configurações Web
       "favicon": "./assets/favicon.png"
     }
   }
